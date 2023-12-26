@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-color:azure;
+        font-family:cambria;
+      }
+      h1{
+        text-align:center;
+        font-family:cambria;
+        font-size:40 px;
+      }
+      h2{
+        text-align:center;
+        font-family:cambria;
+        font-size:30px;
+      }
+      h3{
+        text-align:center;
+        font-family:cambria;
+        font-size:30px;
+      }
+      .header{
+        padding:5px;
+        text-align:5 px;
+        text-align:center;
+        border:5px solid black;
+        color:darkblue;
+        background-color:azure;
+        font-size:30 px;
+      }
+      h1:hover{
+        color:royalblue;
+      }
+      ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        background-color:floralwhite;
+      }
+      li{
+        float:left;
+      }
+      li a,.dropbtn{
+        display:inline-block;
+        color:black;
+        text-align:center;
+        font-family:Arial,sans-serif;
+        font-size:large;
+        padding:14px 16px;
+        text-decoration:none; 
+      }
+
+      li a:hover;.dropdown:hover .dropbtn {
+        background-color:azure;
+      }
+
+      li.dropdown{
+        display:inline-block;
+      }
+
+
+      .dropdown-content{
+
+        display:none;
+        position:absolute;
+        background-color:azure;
+        min-width:160px;
+        box-shadow:0px 8px 16px 0px;
+        rgba(0,0,0,0.2);
+        z-index:1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display:block;
+        text-align:center;
+      }
+
+      .dropdown-content a:hover{
+        background-color:azure;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      *{
+        box-sizing:border-box;
+      }
+
+      .column {
+        float: left;
+        width: 20%;
+        padding: 5px;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 400px;
+        background-color: lightgrey;
+        color: black;
+        text-align: center;border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+
+      div10{
+        width:100px;
+        height:50px;
+        font-weight:bold;
+        position:relative;
+        animation:mymove 5s infinite;
+      }
+
+
+      #div1 {animation-timing-function: linear;}
+      #div2 {animation-timing-function: ease;}
+      #div3 {animation-timing-function: ease in;}
+      #div4 {animation-timing-function: ease out;}
+      #div5 {animation-timing-function: ease in-out;}
+
+      @keyframes mymove
+      {
+        from{
+          left:0px;
+        }
+        to {
+          left:300px;
+        }
+
+      }
+      </style>
+      </head>
+      <div class="header">
+        <h1>Smart Phone Company website </h1>
+      </div>
+      <ul>
+        <li><a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/homepage.html">Home</a></li>
+        <li><a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/aboutus.html">About us</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Samsung</a>
+          <div class="dropdown-content">
+          <a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/samsungmodels.html">Samsung Galaxy m51</a>
+          <a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/samsungmodels.html">Samsung a51</a>
+          <a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/samsungmodels.html">Samsung s20</a>
+          <a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/samsungmodels.html">Samsung Note10</a>
+          <a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/samsungmodels.html">Samsung Galaxy zfold2</a>
+          </div>
+          </li>
+          <li class="dropdown">
+          <a href="javascript:void(0)" 
+          class="dropbtn">Iphone</a>
+          <div class="dropdown-content">
+<a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/iphone.html">Iphone X</a>
+<a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/iphone.html">Iphone XR</a>
+<a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/iphone.html">Iphone 11</a>
+<a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/iphone.html">Iphone se</a>
+<a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/iphone.html">Iphone XS Max</a>
+</div>
+</li>
+</li>
+<li><a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/pay.html">Payment Method</a></li>
+<li><a href="file:///C:/Users/Kailash/Desktop/diabotics/task%201/ProductLandingPage-Task1/cookie.html">Registration Form</a></li>
+  </ul>
+  <h2>Latest Releases<h2>
+  <script language="Javascript">
+  MyBanners=new Array('samsung.jpg','iphone.jpg','vivo.jpg','oppo.jpeg','xiaomi.jpg')
+  banner=0
+  function ShowBanners1()
+  { if (document.images)
+  { banner++
+  if (banner==MyBanners.length) {
+  banner=0}
+  document.ChangeBanner1.src=MyBanners[banner]
+  setTimeout("ShowBanners1()",1000)}}
+  function ShowBanners()
+  {
+  ShowBanners1()
+  }
+  </script>
+  <body onload="ShowBanners()">
+  <center>
+  <img src="samsung.jpg" width="400" height="350" name="ChangeBanner1"/>
+  </center>
+  <h3>Brand Logos</h3>
+  <div class="row">
+  <div class="column">
+  <img src="samsunglogo.jpg" style="width:100%"></div>
+  <div class="column">
+  <img src="applelogo.png" style="width:100%">
+  </div>
+  <div class="column"></div>
+  <img src="vivologo.png" style="width:100%">
+</div>
+<div class="column">
+<img src="oppologo.jpg" style="width:100%">
+</div>
+<div class="column">
+<img src="xiamologo.png" style="width:100%">
+</div>
+</div>
+</body>
+<h3>
+<div class="tooltip">Latest Models
+<span class="tooltiptext">Latest Models of all Brands</span>
+</div>
+</h3>
+<div10 id="div1"><img src="samsung1.jpeg" width="600" height="700"></div>
+<div10 id="div2"><img src="iphone1.jpg" width="600" height="700"></div>
+<div10 id="div3"><img src="vivo1.png" width="600" height="700"></div>
+<div10 id="div4"><img src="oppo1.jpg" width="600" height="700"></div>
+<div10 id="div5"><img src="xiam1.jpg" width="600" height="700"></div>
+</html>
